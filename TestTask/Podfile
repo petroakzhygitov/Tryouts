@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+xcodeproj 'TestTask.xcodeproj'
+
+target 'TestTask' do
+  pod 'JPSThumbnailAnnotation'
+  pod 'JSONModel'
+  pod 'SDWebImage'
+end
